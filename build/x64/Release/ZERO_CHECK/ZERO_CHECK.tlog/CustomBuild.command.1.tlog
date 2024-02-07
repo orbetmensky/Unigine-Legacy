@@ -1,0 +1,10 @@
+^C:\USERS\ORBET\UNIGINE\UNIGINE-LEGACY\BUILD\CMAKEFILES\0DF1550906F88BACAF6F9637C175B928\GENERATE.STAMP.RULE
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/Users/orbet/Unigine/Unigine-legacy -BC:/Users/orbet/Unigine/Unigine-legacy/build --check-stamp-list CMakeFiles/generate.stamp.list --vs-solution-file C:/Users/orbet/Unigine/Unigine-legacy/build/UnigineProj.sln
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd

@@ -1,0 +1,3 @@
+C:/Users/orbet/Unigine/Unigine-legacy/build/CMakeFiles/main.dir
+C:/Users/orbet/Unigine/Unigine-legacy/build/CMakeFiles/ALL_BUILD.dir
+C:/Users/orbet/Unigine/Unigine-legacy/build/CMakeFiles/ZERO_CHECK.dir

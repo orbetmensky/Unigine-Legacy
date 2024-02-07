@@ -1,0 +1,10 @@
+^C:\USERS\ORBET\UNIGINE\UNIGINE-LEGACY\CMAKELISTS.TXT
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/Users/orbet/Unigine/Unigine-legacy -BC:/Users/orbet/Unigine/Unigine-legacy/build --check-stamp-file C:/Users/orbet/Unigine/Unigine-legacy/build/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd

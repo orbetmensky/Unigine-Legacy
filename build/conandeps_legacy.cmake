@@ -1,0 +1,17 @@
+message(STATUS "Conan: Using CMakeDeps conandeps_legacy.cmake aggregator via include()")
+message(STATUS "Conan: It is recommended to use explicit find_package() per dependency instead")
+
+find_package(glfw3)
+find_package(glew)
+find_package(JPEG)
+find_package(PNG)
+find_package(ZLIB)
+find_package(OpenAL)
+find_package(Vorbis)
+find_package(Ogg)
+find_package(libmad)
+find_package(glext)
+find_package(wglext)
+find_package(opengl_system)
+
+set(CONANDEPS_LEGACY  glfw  GLEW::GLEW  JPEG::JPEG  PNG::PNG  ZLIB::ZLIB  OpenAL::OpenAL  vorbis::vorbis  Ogg::ogg  libmad::libmad  glext::glext  wglext::wglext  opengl::opengl )
